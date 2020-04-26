@@ -14,7 +14,7 @@ def main():
     corpus = load_data(sys.argv[1])
 
     interest = int(sys.argv[2])
-    # interest = int(sys.argv[2])
+
 
     # Get all words in corpus
     print("Extracting words from corpus...")
